@@ -1,3 +1,4 @@
+
 import pandas as pd
 import streamlit as st
 import plotly.express as px
@@ -146,3 +147,4 @@ with col5:
     fig_rutas.update_coloraxes(showscale=False)
     # Mostrar la grafica
     st.plotly_chart(fig_rutas,use_container_width=True)
+
